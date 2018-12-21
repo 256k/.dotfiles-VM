@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "src/bg/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.png",
+      "default_title": "Set custom id"
+   },
+   "content_scripts": [ {
+      "js": [ "src/inject/inject.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Runs SiteGainer editor on any website without implementing it in source code",
+   "homepage_url": "http://sitegainer.com",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1xfX4re8pMAGDDlJo1uHVcMPJD7gVp/8gJhJ2qo55f+d6AM9huevxOgCulvvdIdysEd/+0FtgICsvTnZn0G8H0k4Lu3zl92moIscdspDH5FwJH2Ne9Xq7pjClb4Ve5yGxoVvQLCoTNd+tS2oTxJcCAMQaCSVg9iF88gQW3cGjh2PCjO9PVcUH3W8cO5CMc2OurnGVVN5PCQB8+j96GLIfz1z1q3fzSZZ7CZzgsaBAir0RUU7DBuqjFjP9QcVXnLHrd29le6pDOCYCfvL8+9pBEALvfpQcMKOqZ8HasGtoE6XiY+9nsLkNzvcQ0qjDMsO8vfN7Sqtzj417yjcRvZDcwIDAQAB",
+   "manifest_version": 2,
+   "name": "SiteGainer Editor",
+   "permissions": [ "tabs", "contextMenus", "activeTab", "https://*/*", "http://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

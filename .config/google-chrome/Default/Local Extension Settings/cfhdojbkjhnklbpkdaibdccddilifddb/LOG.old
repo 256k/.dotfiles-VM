@@ -1,0 +1,19 @@
+2018/12/20-16:01:59.785 3129 Reusing MANIFEST /home/fayek/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/12/20-16:01:59.801 3129 Recovering log #162
+2018/12/20-16:02:00.078 3129 Level-0 table #165: started
+2018/12/20-16:02:00.765 3129 Level-0 table #165: 3799428 bytes OK
+2018/12/20-16:02:00.776 3129 Delete type=0 #162
+2018/12/20-16:02:58.335 3187 Level-0 table #168: started
+2018/12/20-16:02:58.472 3187 Level-0 table #168: 3799251 bytes OK
+2018/12/20-16:02:58.490 3187 Delete type=0 #166
+2018/12/20-16:02:58.494 3187 Compacting 4@0 + 2@1 files
+2018/12/20-16:02:58.683 3187 Generated table #169@0: 1 keys, 3799186 bytes
+2018/12/20-16:02:58.699 3187 Generated table #170@0: 4 keys, 397 bytes
+2018/12/20-16:02:58.699 3187 Compacted 4@0 + 2@1 files => 3799583 bytes
+2018/12/20-16:02:58.717 3187 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/12/20-16:02:58.717 3187 Delete type=2 #165
+2018/12/20-16:02:58.719 3187 Delete type=2 #161
+2018/12/20-16:02:58.720 3187 Delete type=2 #158
+2018/12/20-16:02:58.721 3187 Delete type=2 #168
+2018/12/20-16:02:58.725 3187 Delete type=2 #159
+2018/12/20-16:02:58.725 3187 Delete type=2 #163

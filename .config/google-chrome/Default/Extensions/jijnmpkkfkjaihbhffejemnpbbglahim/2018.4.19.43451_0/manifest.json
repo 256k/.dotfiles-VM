@@ -1,0 +1,21 @@
+{
+   "app": {
+      "icon_color": "#186AA5",
+      "launch": {
+         "web_url": "https://trello.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "JKyEjCNoX7CfCmmiKDUWywekqM1X3orUcLGb3DHwZ9w=",
+   "name": "Trello",
+   "version": "2018.4.19.43451"
+}

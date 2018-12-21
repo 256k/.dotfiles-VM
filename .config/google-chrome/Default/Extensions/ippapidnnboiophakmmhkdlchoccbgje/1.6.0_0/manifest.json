@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+   "description": "Developer tools for Meteor",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1nfIiAqLCMX2e/CQSuqnPFkAiLARg/amk4EVXnPWtwLhqnyze9H8wYOwepq+4YalLfxBPConBNV93h0k4VoaUZ5j9I0phWFgEtU7aNyeR7o9vcEPSvaqTs+x1PKwzRXbZVtWouGck8ZPs6PXjNxhnmrapu7lfEdA0n+7yph6kM2APk3vVCoTpEzDL8DFIIT17JjFaipb5jzEVWRZ4ZyFR9HPsEtyQWYhwu3wcIngYXZXzroUlq+Pr1+b+RmVrafFw4FkUrDUdHT7ue/j7YHKYLB03TgbOajxrRHKnnJDlPMzbDGjloxJCJgbRJmWUbQiDEbNE2r1LIWiW+IGI1GS4QIDAQAB",
+   "manifest_version": 2,
+   "name": "Meteor DevTools",
+   "options_page": "panel.html",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.0"
+}

@@ -1,0 +1,21 @@
+{
+   "app": {
+      "icon_color": "#E54028",
+      "launch": {
+         "web_url": "https://www.wunderlist.com/webapp#/lists/inbox"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Over 13 million people already use Wunderlist to manage tasks, to-do lists, and to get things done.  Wunderlist is the best to-do list for you, your team or your family.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "dJT85Avv2hfnZ0BvZHSgSbAwkl1E0z9WdQD+IYKWQl8=",
+   "name": "Wunderlist",
+   "version": "2018.4.19.43451"
+}

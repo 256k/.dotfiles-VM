@@ -1,0 +1,29 @@
+Looking for git in: git
+Using git 2.19.2 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/fayek
+> git status -z -u
+> git show :.config/polybar/config
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :.config/polybar/launch.sh
+> git show :.i3/config
+> git show :.config/polybar/config
+> git show :.config/polybar/openweathermap-full.sh
+> git show :.config/polybar/config
+> git show :.config/polybar/config
+> git show :blur-bg.sh
+> git ls-files --stage -- ./
+> git show :.i3/config
+> git show :blur-bg.sh
+> git ls-files --stage -- ./
+> git show :.config/polybar/config
+> git show :blur-bg.sh
+> git ls-files --stage -- ./
+> git show :.i3/config
+> git show :.zshrc
