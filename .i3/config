@@ -421,6 +421,6 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-
-exec --no-startup-id "wal -i ~/Pictures/wall4.jpg"
+# exec_always --no-startup-id "feh --bg-scale ~/Pictures/wall2.jpg"
+ exec_always --no-startup-id "wal -i ~/Pictures/wall2.jpg"
 

@@ -27,3 +27,6 @@ Open repository: /home/fayek
 > git ls-files --stage -- ./
 > git show :.i3/config
 > git show :.zshrc
+> git show :.i3/config
+> git show :pkglist21122018.txt
+> git show :.i3/config
